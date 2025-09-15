@@ -2,7 +2,7 @@ name: Deploying Dummy Workflow
 on:
   workflow_dispatch:
   push:
-    branches: [ master ]
+    branches: [ master, user/pandeyvinayy/customDeveloperFolio ]
 jobs:
   check:
     runs-on: ubuntu-latest
