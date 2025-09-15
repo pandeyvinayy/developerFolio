@@ -1,0 +1,10 @@
+name: Deploying Dummy Workflow
+on:
+  workflow_dispatch:
+  push:
+    branches: [ master ]
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Workflow triggered"
