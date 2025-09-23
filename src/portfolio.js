@@ -159,7 +159,7 @@ const educationInfo = {
     },
     {
       schoolName: "DAV Sreshtha Vihar, Delhi",
-      logo: require("./assets/images/davLogo.jpg"),
+      logo: require("./assets/images/davLogo.png"),
       subHeader: "Bachelor of Science in Computer Science",
       duration: "September 2013 - April 2017",
       desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
