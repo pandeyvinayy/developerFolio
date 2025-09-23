@@ -49,12 +49,21 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "From front end to back end, I’m passionate about creating and learning in the world of software.",
+  subTitle:
+    "From front end to back end, I’m passionate about creating and learning in the world of software.",
   skills: [
-    emoji("⚡ Architecting and deploying scalable web applications on cloud platforms like Azure and AWS"),
-    emoji("⚡ Creating seamless user experiences with React, Next.js, and modern front-end frameworks"),
-    emoji("⚡ Integrating AI-powered features using OpenAI, Copilot Studio, and other cutting-edge APIs"),
-    emoji("⚡ Automating workflows and enhancing productivity with the latest developer tools and cloud services")
+    emoji(
+      "⚡ Architecting and deploying scalable web applications on cloud platforms like Azure and AWS"
+    ),
+    emoji(
+      "⚡ Creating seamless user experiences with React, Next.js, and modern front-end frameworks"
+    ),
+    emoji(
+      "⚡ Integrating AI-powered features using OpenAI, Copilot Studio, and other cutting-edge APIs"
+    ),
+    emoji(
+      "⚡ Automating workflows and enhancing productivity with the latest developer tools and cloud services"
+    )
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
