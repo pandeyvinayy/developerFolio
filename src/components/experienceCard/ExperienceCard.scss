@@ -88,7 +88,8 @@
   width: 8rem;
   height: 8rem;
   box-shadow: 0 0.5rem 1rem $lightBoxShadowDarker;
-  border-radius: 50%;
+  // border-radius: 50%;
+  background-color: #fff;
 }
 
 .experience-text-role {
@@ -112,6 +113,9 @@
   font-weight: 600;
 }
 
+.experience-card li {
+  margin-bottom: 1rem;
+}
 .experience-text-desc {
   text-align: center;
 }

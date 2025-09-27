@@ -160,19 +160,28 @@ const educationInfo = {
       logo: require("./assets/images/iiitdLogo.jpg"),
       subHeader: "Bachelor of Technology in Computer Science",
       duration: "June 2019 - June 2023",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      desc: "Graduated with a CGPA of 8.46. Completed impactful projects in deep learning and machine learning, held leadership roles in student societies, and contributed to community initiatives.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "CGPA: 8.46/10",
+        "Completed two independent projects in deep learning and machine learning, including work on the CIFAR-10 model",
+        "Lead member of Enactus and E-Cell clubs; Lead event manager for Odyssey (Cultural fest)",
+        "Major coursework: Data Structures & Algorithm Design, Operating Systems, Computer Networks, Artificial Intelligence & Machine Learning",
+        "Designed posters for social awareness and taught underprivileged students in New Delhi"
       ]
     },
     {
       schoolName: "DAV Sreshtha Vihar, Delhi",
       logo: require("./assets/images/davLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      subHeader: "Senior Secondary (CBSE Class XII), Science Stream",
+      duration: "June 2017 - June 2019",
+      desc: "Achieved 96% in CBSE Class XII. Secured top 1 percentile rank in JEE among 1.15 million candidates, and received multiple scholarships and awards.",
+      descBullets: [
+        "Scored 96% in CBSE Class XII examination",
+        "Secured top 1 percentile rank in JEE (out of 1.15 million candidates)",
+        "Received scholarships and awards for academic excellence within the State",
+        "Subjects: English, Physics, Chemistry, Mathematics, Computer Science",
+        "Hobbies: Badminton and Basketball"
+      ]
     }
   ]
 };
@@ -183,16 +192,20 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
-    },
-    {
       Stack: "Backend",
-      progressPercentage: "70%"
+      progressPercentage: "90%"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
+      Stack: "Frontend/Design", //Insert stack or technology you have experience in
+      progressPercentage: "80%" //Insert relative proficiency in percentage
+    },
+    {
+      Stack: "Programming | Java, C++, Python",
+      progressPercentage: "85%"
+    },
+    {
+      Stack: "Artifical Intelligence & Machine Learning",
+      progressPercentage: "88%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -205,28 +218,35 @@ const workExperiences = {
   experience: [
     {
       role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      company: "Microsoft",
+      companylogo: require("./assets/images/ms.png"),
+      date: "June 2023 – Present",
+      desc: "Developed key telemetry, automation, and security solutions for Windows and BlackRock, driving improvements in accessibility, deployment, and anomaly detection.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Developed real-time telemetry service for Windows File Explorer’s Dark Mode; enabled feature usage tracking across 100M+ devices globally and contributed to UI alignment across multiple system dialog boxes, ensuring visual consistency across 5+ themes and improved accessibility for millions.",
+        "Designed and implemented an infrastructure-aware automation tool for Copilot deployments across ISVs like Siemens; reduced deployment time by 40% via tailored DevOps workflows and CI/CD pipelines.",
+        "Built a security automation pipeline with breach alerts, reducing acknowledgment by 95% and resolution time by 80%. Optimized traceability dashboards via wrapper functions and cross-cluster workflows, cutting latency by 99% and enabling monthly trend analysis across BlackRock’s Aladdin synthetic environment.",
+        "Enhanced anomaly detection fidelity for BlackRock’s Aladdin synthetic system; reduced alert latency from 3 hours to under 5 minutes and improved accuracy by 90% using telemetry signals across critical production environments."
       ]
     },
-    {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
+    // {
+    //   role: "Front-End Developer",
+    //   company: "Quora",
+    //   companylogo: require("./assets/images/quoraLogo.png"),
+    //   date: "May 2017 – May 2018",
+    //   desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    // },
     {
       role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      company: "Microsoft",
+      companylogo: require("./assets/images/ms.png"),
+      date: "May 2022 – July 2022",
+      desc: "Built a production-ready push notification service and technical documentation, driving user engagement and efficient decision-making.",
+      descBullets: [
+        "Developed a push-based notification service that increased user engagement by 25% and reduced delivery time by 40%.",
+        "Created comprehensive technical design documentation with my mentor, improving decision-making efficiency by 30% and aligning 3 key stakeholders.",
+        "Delivered a scalable, secure notification system using Azure Service Bus, Event Hub, and Key Vault within 2 months."
+      ]
     }
   ]
 };
@@ -282,52 +302,70 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
-      subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+      title: "Microsoft Global Hackathon 2025",
+      subtitle: "Awarded by Microsoft",
+      image: "https://images.credly.com/images/c5af23c8-2a73-44bf-bbad-3480da39808e/blob", // You can leave this empty or use a placeholder
+      imageAlt: "Microsoft Global Hackathon Badge",
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          name: "View Badge",
+          url: "https://www.credly.com/badges/30ca4bfa-53ee-43d7-b072-b39bbdaeb5c1/public_url"
         }
-      ]
+      ],
+      customEmbed: (
+        <iframe
+          width="150"
+          height="270"
+          src="https://www.credly.com/badges/30ca4bfa-53ee-43d7-b072-b39bbdaeb5c1/public_url"
+          frameBorder="0"
+          allowFullScreen
+          title="Microsoft Global Hackathon Badge"
+        ></iframe>
+      )
     },
     {
-      title: "Google Assistant Action",
-      subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+      title: "Microsoft Global Hackathon 2024",
+      subtitle: "Awarded by Microsoft",
+      image: "https://images.credly.com/size/340x340/images/ac4d1eba-bbc1-42f9-aa64-d3149a99894a/image.png", // You can leave this empty or use a placeholder
+      imageAlt: "Microsoft Global Hackathon Badge",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "View Badge",
+          url: "https://www.credly.com/badges/d3cf6af0-e640-48a1-be4c-8f6db931f0c3/public_url"
         }
-      ]
+      ],
+      customEmbed: (
+        <iframe
+          width="150"
+          height="270"
+          src="https://www.credly.com/badges/d3cf6af0-e640-48a1-be4c-8f6db931f0c3/public_url"
+          frameBorder="0"
+          allowFullScreen
+          title="Microsoft Global Hackathon Badge"
+        ></iframe>
+      )
     },
-
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      title: "Microsoft Global Hackathon 2023",
+      subtitle: "Awarded by Microsoft",
+      image: "https://images.credly.com/size/340x340/images/690dd7e4-e88a-4e4e-8681-f3b9d1119b2e/image.png", // You can leave this empty or use a placeholder
+      imageAlt: "Microsoft Global Hackathon Badge",
       footerLink: [
-        {name: "Certification", url: ""},
         {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "View Badge",
+          url: "https://www.credly.com/badges/38de70b6-8644-4b35-9348-7fc5ddb13613/public_url"
         }
-      ]
+      ],
+      customEmbed: (
+        <iframe
+          width="150"
+          height="270"
+          src="https://www.credly.com/badges/38de70b6-8644-4b35-9348-7fc5ddb13613/public_url"
+          frameBorder="0"
+          allowFullScreen
+          title="Microsoft Global Hackathon Badge"
+        ></iframe>
+      )
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -354,7 +392,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -373,7 +411,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -386,7 +424,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -402,14 +440,14 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+91-9821955350",
+  email_address: "vinaypandey2305@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
+  userName: "vinay_2305", //Replace "twitter" with your twitter username without @
   display: true // Set true to display this section, defaults to false
 };
 
