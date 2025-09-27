@@ -304,7 +304,8 @@ const achievementSection = {
     {
       title: "Microsoft Global Hackathon 2025",
       subtitle: "Awarded by Microsoft",
-      image: "https://images.credly.com/images/c5af23c8-2a73-44bf-bbad-3480da39808e/blob", // You can leave this empty or use a placeholder
+      image:
+        "https://images.credly.com/images/c5af23c8-2a73-44bf-bbad-3480da39808e/blob", // You can leave this empty or use a placeholder
       imageAlt: "Microsoft Global Hackathon Badge",
       footerLink: [
         {
@@ -326,7 +327,8 @@ const achievementSection = {
     {
       title: "Microsoft Global Hackathon 2024",
       subtitle: "Awarded by Microsoft",
-      image: "https://images.credly.com/size/340x340/images/ac4d1eba-bbc1-42f9-aa64-d3149a99894a/image.png", // You can leave this empty or use a placeholder
+      image:
+        "https://images.credly.com/size/340x340/images/ac4d1eba-bbc1-42f9-aa64-d3149a99894a/image.png", // You can leave this empty or use a placeholder
       imageAlt: "Microsoft Global Hackathon Badge",
       footerLink: [
         {
@@ -348,7 +350,8 @@ const achievementSection = {
     {
       title: "Microsoft Global Hackathon 2023",
       subtitle: "Awarded by Microsoft",
-      image: "https://images.credly.com/size/340x340/images/690dd7e4-e88a-4e4e-8681-f3b9d1119b2e/image.png", // You can leave this empty or use a placeholder
+      image:
+        "https://images.credly.com/size/340x340/images/690dd7e4-e88a-4e4e-8681-f3b9d1119b2e/image.png", // You can leave this empty or use a placeholder
       imageAlt: "Microsoft Global Hackathon Badge",
       footerLink: [
         {
